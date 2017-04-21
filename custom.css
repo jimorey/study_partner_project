@@ -1,0 +1,159 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  margin:0px;
+  padding:0px;
+  background-image: url(geometry2.png);
+}
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sign-up {
+  margin-top: 100px;
+}
+
+.footer {
+  position: relative;
+	height: 160px;
+	clear: both;
+  background-color: #e6ecff;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+	padding-top: 50px;
+	margin-top: 200px;
+}
+
+.button {
+  background-color: #3366ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor:pointer;
+}
+
+.center-wrapper {
+    text-align: center;
+}
+
+.blurb p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+h2 span {
+  z-index: 100;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font: bold 24px/45px Arial, Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+}
+
+.promo1 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #e6ecff;
+}
+
+.banner-heading {
+  font-size: 100px;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.nav li:last-child {
+    border-left:1px solid #bbb;
+    border-right: none;
+    float: right;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #3366ff;
+}
+
+@media screen and (max-width: 767px){
+  .nav li.right,
+  .nav li {float: none;}
+  .nav li:last-child {
+      border-right: none;
+      float: none;
+      }
+
+  .banner-heading {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h2 span {
+    font: bold 12px/30px Arial, Helvetica, Sans-Serif;
+    top: 510px;
+  }
+
+  .signup-form {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
